@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    font-size: 100px
+}
+
+div{
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+p{
+    margin: auto;
+}
+
+.header{
+    margin: 100px;
+}
+
+.playground{
+    border-radius: 20px;
+    display: flex;
+    gap: 250px;
+    padding: 100px 50px;
+    justify-content: space-evenly;
+    flex:none;
+    align-items: center;
+    border: gray;
+    border-style: solid;
+}
+
+.playerUI, .computerUI{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 10px;
+    flex:none;
+    width: 1200px;
+    border: gray;
+}
+
+.name{
+    font: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* might not be needed*/
+    margin: 0px; 
+    padding: 0px;
+    flex:none;
+}
+
+.panel{
+    display: flex;
+    padding: 8px 4px;
+    gap: 5px;
+    justify-content: space-evenly;
+    flex:none;
+    box-sizing: border-box;
+    height: 200px;
+    width: auto;
+    border: gray;
+}
+
+.panel .button{
+    border-radius: 25px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: grey;
+    flex:none;
+}
+
+.chosen{
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+    flex:none;
+    border: gray;
+}
+
+.tally{
+    display: flex;
+    gap: 750px;
+    margin:50px;
+}
+
+.player-tally, .computer-tally{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
